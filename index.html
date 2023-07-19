@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script> -->
+    <script src="https://kit.fontawesome.com/b69f32b8c9.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="logo.png" class="logo" alt="logo">
+                <ul id="sidemenu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="skills">Services</a></li>
+                    <li><a href="projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <h1>Full Stack Web <br> Developer <img src="hi.jpg" alt="hi img"></h1> <br>
+                <p class="one">Hi, I'm Anjali. <br> <br> A passionate Full Stack Web Developer <br> </p>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="i.jpeg" alt="My photo">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me </h1><br>
+                    <p class="lorem">"I am an Computer Science Engineering Student at SR University
+                        in Hanamkonda, with a passion for Front-end development, Back-end development, Cloud computing, and Devops . <br>
+                        I enjoy creating user-friendly web applications and keeping up with the latest industry trends.
+                        I am actively seeking internships and job opportunities to apply my skills and gain practical
+                        experience.
+                        I am excited to collaborate with experienced professionals in the tech industry and contribute
+                        to
+                        innovative projects."</p> <br>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Front-End Web Developer</span></li>
+                            <li><span>Back-End Web Developer</span></li>
+                            <li><span>Cloud Computing</span></li>
+                            <li><span>Devops</span></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Intern at </span> <span class="tab2"> Code Alpha</span></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2021-2025</span> <br> Engineering at SR University</li>
+                            <li><span>2020-2021</span> <br>Secondary Education from Alphores Junior College</li>
+                            <li><span>2018-2019</span><br>SSC from Sree Chaitanya High School</li>
+                        </ul>
+                    </div>
+
+                </div>
+
+                <div class="content">
+                    <div class="skills">
+                        <p>Tech Stack</p>
+                        <div class="logos">
+                            <ul>
+                                <li><img src="logo1.jpg" alt="Html"></li>
+                                <li><img src="logo2.png" alt="CSS"></li>
+                                <li><img src="logo3.png" alt="JS"></li>
+                                <li><img src="logo4.png" alt="React"></li>
+                                <li><img src="logo5.png" alt="Scss"></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <div id="Projects">
+        <div class="container">
+            <h1 class="sub-title">Projects</h1>
+            <div class="projects-grid">
+                <div class="pro pro__1">
+                    <div class="pro__img">
+                        <a href="" target="Google Drive Clone">
+                            <img src="googledrive.png" alt="clone">
+                        </a>
+                    </div>
+                    <div class="pro__text">
+                        <h1>Google Drive 🦖</h1> <br>
+                        <p>This Project is clone of the Google Drive</p>
+                        <div class="stack">
+                            <p>CSS</p>
+                            <p>Java Script</p>
+                        </div> <br>
+                        <div class="links">
+                            <a href="https://github.com/anjali-akuthota/Google-Drive-Clone-Using-HTML-and-CSS" target="_blank">GitHub Page <i
+                                    class="fa-brands fa-github" style="color: #fb1818;"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="pro pro__1">
+                    <div class="pro__img">
+                        <a href="" target="Facebook Clone">
+                            <img src="facebook.png" alt="website">
+                        </a>
+                    </div>
+                    <div class="pro__text">
+                        <h1> Facebook Clone</h1> <br>
+                        <p>This Project is clone of the Facebook</p>
+                        <div class="stack">
+                            <p>HTML</p>
+
+                            <p>CSS</p>
+                            <p>JS</p>
+                        </div> <br>
+                        <div class="links">
+                            <a href="https://github.com/anjali-akuthota/Facebook-using-HTML-and-CSS" target="_blank">GitHub Page <i
+                                    class="fa-brands fa-github" style="color: #fb1818;"></i></a>
+                        </div>
+                    </div>
+                </div>
+               
+            <div id="contact">
+                <div class="container">
+                    <div class="row">
+                        <div class="contact-left">
+                            <h1 class="sub-title">Contact Me</h1>
+                            <p><i class="fa-solid fa-paper-plane"></i>anjaliakuthota28@gmail.com</p>
+                            <p><i class="fa-solid fa-phone"></i>7778889991</p>
+                            <div class="social-icons">
+                                <a href="https://www.linkedin.com/in/anjali-akuthota-915821271/" target="_blank"><i
+                                        class="fa-brands fa-linkedin"></i></a>
+                                <a href="https://github.com/anjali-akuthota" target="_blank"><i
+                                        class="fa-brands fa-github"></i></a>
+                                <a href=""><i class="fa-brands fa-twitter"></i></a>
+                                <a href="https://www.instagram.com/anjaliakuthota/" target="_blank"><i
+                                        class="fa-brands fa-instagram"></i></a>
+
+                            </div>
+                           
+                        </div>
+                        <div class="contact-right">
+                            <form name="submit-to-google-sheet">
+                                <input type="text" name="Name" placeholder="Your Name" required>
+                                <input type="email" name="email" placeholder="Your Email" required>
+                                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                                <button type="submit" class="btn btn2">submit</button>
+                            </form>
+                            <span id="msg"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="copyright">
+                    <p>Copyright &copy; anjaliakuthota</p>
+                </div>
+            </div>
+
+            <script src="script.js"></script>
+
+</body>
+
+</html>
