@@ -5,7 +5,7 @@ Welcome to my personal portfolio repository! This project showcases my skills, p
 
 # Technologies Used
 ` HTML 
-` CSS 
+`CSS 
 ` JavaScript 
 
 # Features
