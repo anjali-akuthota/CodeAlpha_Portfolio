@@ -9,10 +9,10 @@ CSS ,
 JavaScript .
 
 # Features
-Home: Get a brief introduction about me and my interests.
-About: Learn more about my background, education, and experiences.
-Portfolio: View a collection of my projects, including descriptions, technologies used, and live demos (if available).
-Contact: Connect with me through the contact form or find links to my social media profiles.
+* Home: Get a brief introduction about me and my interests.
+* About: Learn more about my background, education, and experiences.
+* Portfolio: View a collection of my projects, including descriptions, technologies used, and live demos (if available).
+* Contact: Connect with me through the contact form or find links to my social media profiles.
 
 # Installation and Usage
 Clone the repository to your local machine:
