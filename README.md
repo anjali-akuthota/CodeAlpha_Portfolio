@@ -4,9 +4,9 @@
 Welcome to my personal portfolio repository! This project showcases my skills, projects, and experiences in the field of web development and design. It serves as an interactive resume and a platform to display the work I'm passionate about.
 
 # Technologies Used
-HTML ,
-CSS ,
-JavaScript .
+~ HTML 
+~ CSS 
+~ JavaScript 
 
 # Features
 * Home: Get a brief introduction about me and my interests.
